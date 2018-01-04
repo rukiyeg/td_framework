@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mvc2-config>
+	<actions>
+		<action>
+			<action-name>fr.afcepf.dja.client.action.LoginAction</action-name>
+			<url-pattern>/login.action</url-pattern>
+			<form-name>loginForm</form-name>
+		</action>
+		<action>
+			<action-name>fr.afcepf.dja.client.action.LoginAction</action-name>
+			<url-pattern>/pouet.action</url-pattern>
+			<form-name>loginForm2</form-name>
+		</action>
+	</actions>
+	<forms>
+		<form>
+			<form-class>fr.afcepf.dja.client.formAction.LoginFormAction</form-class>
+			<form-name>loginForm</form-name>
+		</form>
+		<form>
+			<form-class>fr.afcepf.dja.client.formAction.LoginFormAction</form-class>
+			<form-name>loginForm2</form-name>
+		</form>
+	</forms>
+</mvc2-config>
